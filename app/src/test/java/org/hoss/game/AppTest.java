@@ -3,12 +3,15 @@
  */
 package org.hoss.game;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
 
-public class AppTest {
-    @Test public void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
-    }
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class AppApplicationTests {
+
+  @Test
+  void contextLoads() {
+  }
+
 }
